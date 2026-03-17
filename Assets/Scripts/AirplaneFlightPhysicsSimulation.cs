@@ -93,8 +93,8 @@ public class AirplanePhysicsController : MonoBehaviour
         if (kb.sKey.isPressed) pitch = 1;
         if (kb.wKey.isPressed) pitch = -1;
 
-        if (kb.aKey.isPressed) roll = 1;
-        if (kb.dKey.isPressed) roll = -1;
+        if (kb.dKey.isPressed) roll = 1;
+        if (kb.aKey.isPressed) roll = -1;
 
         if (kb.qKey.isPressed) yaw = -1;
         if (kb.eKey.isPressed) yaw = 1;
